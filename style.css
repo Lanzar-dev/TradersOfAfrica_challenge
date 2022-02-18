@@ -20,6 +20,14 @@ li {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+  background: #1b7dff;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
 .nav-hero {
   background: url("./assets/bcg-image.png") no-repeat center;
   height: 800px;
@@ -51,7 +59,6 @@ nav {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
-
   margin-left: 3rem;
 }
 
@@ -110,16 +117,11 @@ nav {
 }
 
 .btn {
-  background: #1b7dff;
   font-family: Lato;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  color: #ffffff;
   padding: 7px 25px;
-  border: none;
-  outline: none;
-  cursor: pointer;
 }
 
 .middle-section {
@@ -409,14 +411,10 @@ nav {
 }
 
 .card-bottom button {
-  background: #006dfe;
   font-family: Lato;
   font-size: 16px;
   line-height: 19px;
-  color: #ffffff;
-  border: none;
   padding: 10px;
-  cursor: pointer;
 }
 
 .app-video {
@@ -494,6 +492,11 @@ footer img {
     padding: 2.5rem 10rem;
   }
 
+  .benefits {
+    margin-top: -10rem;
+    margin-bottom: 2.5rem;
+  }
+
   .trip-bottom-images {
     flex-wrap: wrap;
   }
@@ -507,6 +510,19 @@ footer img {
 }
 
 @media screen and (max-width: 1190px) {
+  .nav-hero article {
+    padding: 5rem 10rem;
+  }
+
+  .benefits {
+    margin-top: -8rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-bottom-text p {
+    margin-right: 3.5rem;
+  }
+
   .places-content {
     display: flex;
     width: 100%;
