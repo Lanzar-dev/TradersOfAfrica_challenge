@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 li {
@@ -35,11 +36,13 @@ nav {
   width: 32px;
   height: 25px;
   display: none;
+  cursor: pointer;
 }
 
 .nav-hero nav img {
   width: 82px;
   height: 31px;
+  cursor: pointer;
 }
 
 .nav-hero nav div a {
@@ -115,6 +118,7 @@ nav {
   padding: 7px 25px;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .middle-section {
@@ -171,6 +175,7 @@ nav {
 .benefits-card-more {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .benefits-card-more p {
@@ -212,6 +217,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .trip-text-right p {
@@ -313,6 +319,7 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: #006dfe;
+  cursor: pointer;
 }
 
 .neighbourhood .content .more-pics span img {
@@ -380,6 +387,7 @@ nav {
   width: 12px;
   height: 12px;
   margin-left: 2px;
+  cursor: pointer;
 }
 
 .notifications .icon span {
@@ -407,6 +415,7 @@ nav {
   color: #ffffff;
   border: none;
   padding: 10px;
+  cursor: pointer;
 }
 
 .app-video {
@@ -445,6 +454,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 5rem 7rem;
+}
+
+footer img {
+  cursor: pointer;
 }
 
 .footer-details {
