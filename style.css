@@ -415,7 +415,7 @@ nav {
   width: 100%;
 }
 
-.app-video video {
+.app-video img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -746,7 +746,7 @@ footer {
   }
 
   .app-video {
-    height: 80vh;
+    height: 60vh;
   }
 
   footer {
@@ -787,5 +787,9 @@ footer {
   .trip-text-left h3 {
     font-size: 22px;
     line-height: 30px;
+  }
+
+  .app-video {
+    height: 50vh;
   }
 }
