@@ -764,6 +764,11 @@ footer {
   .footer-details div {
     margin-left: 1rem;
   }
+
+  .footer-details p,
+  .footer-details li {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 500px) {
