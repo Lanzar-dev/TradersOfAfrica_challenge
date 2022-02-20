@@ -550,11 +550,29 @@ footer img {
   }
 
   nav div {
-    display: none;
+    display: flex;
+    position: fixed;
+    background-color: #0e1d28;
+    flex-direction: column;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+    z-index: 10;
+  }
+
+  nav div a {
+    margin: 8px;
   }
 
   .nav-hero nav .hamburger {
     display: block;
+  }
+
+  nav div.show {
+    transform: translateX(0);
   }
 
   .nav-hero article {
